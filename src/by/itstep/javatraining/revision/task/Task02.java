@@ -23,6 +23,6 @@ package by.itstep.javatraining.revision.task;
 
 public class Task02 {
     public static int task02(int seeker, int coin) {
-        return 0;
+        return coin % seeker;
     }
 }
